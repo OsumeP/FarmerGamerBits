@@ -1,2 +1,2 @@
 # FarmerGamerBits
-Blog Gamer
+Blog Gamer by JuanDavid
