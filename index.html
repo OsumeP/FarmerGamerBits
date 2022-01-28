@@ -1,19 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <title>FarmingGamerBits</title>
 </head>
 
 <body>
-    <h1>BIENVENIDO A MI BLOG GAMER</h1>
-    <p>Aqui encontraras reviews de tus juegos favoritos!!</p>
-    <nav>
-        <a href="views/user.html">Informacion de Usuario</a>
-    </nav>
+    <div class="header">
+        <nav>
+            <img src="images/Persona5_logo.png" class="logo-Persona">
+            <img src="images/Title.png" class="logo">
+            <ul>
+                <li><a href="">Lobby</a></li>
+                <li><a href="">Tendencias</a></li>
+                <li><a href="">Foros</a></li>
+                <li><a href="">Grupos</a></li>
+            </ul>
+            <img src="images/menu.png" class="menu-icon">
+            <img src="images/Sonic_Menu.gif " class="menu-sonic">
+        </nav>
+        <div class="text-box">
+            <h1>Farming <span class="auto-input"></span></h1>
+            <p>Acá podrás escribir y encontrar tus expperiencias y pensamientos relacionados <br>con el mundo de los
+             videojuegos y a la vez de poder interactuar con otros gamers.</p>
+             <a href="registration.html">Crear una cuenta</a>
+             <a href="" class="btn ">Iniciar sesión</a>
+        </div>
+        <img src="images/Joker.png" class="joker-img">
+    </div>
+    <script scr=<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script></script>
+    <script>
+        var typed = new Typed(".auto-input", {
+            strings: ["Gamer Bits", "Friends", "Games", "Experiences"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
 </body>
 
 </html>
