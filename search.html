@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="search.css">
+    <script src="search.js" defer></script>
+    <title>FarmingGamerBits</title>
+</head>
+
+<body>
+    <div class="header">
+        <nav>
+            <img src="images/Persona5_logo.png" class="logo-Persona">
+            <img src="images/Title.png" class="logo">
+            <ul>
+                <li><a href="">Lobby</a></li>
+                <li><a href="">Tendencias</a></li>
+                <li><a href="">Foros</a></li>
+                <li><a href="">Grupos</a></li>
+                <li><a href="search.html" class="selection">Búsqueda</a></li>
+            </ul>
+            <img src="images/menu.png" class="menu-icon">
+            <img src="images/Sonic_Menu.gif " class="menu-sonic">
+        </nav>
+        <div class="search-wrapper">
+            <label for="search" placeholder="Busca lo que quieras" class="imput-field">Busca lo que quieras</label>
+            <input type="search" id="search">
+        </div>
+        <div>
+            <div class="user-cards" data-user-cards-container></div>
+                <template data-user-template> 
+                    <div class="card">
+                        <div class="title" data-title>
+                        </div>
+                        <div class="author" data-author>
+                        </div>
+                        <div class="date" data-date>
+                        </div>
+                        <div class="body" data-body>
+                    </div>
+                </template>
+        </div>
+</body>
